@@ -1,0 +1,47 @@
+.mini_widgets {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3rem;
+}
+
+.mini_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-overlay);
+    padding: 0.5rem;
+    border-radius: .5rem;
+}
+
+.mini_card_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.mini_card_title>p {
+    text-transform: capitalize;
+}
+
+.mini_card_title p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.mini_card_title .icon {
+    margin-left: 10px;
+    background-color: orangered;
+}
+
+.data_unit {
+    background-color: #262627;
+    opacity: 0.9;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
